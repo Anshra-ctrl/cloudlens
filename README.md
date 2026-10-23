@@ -1,5 +1,9 @@
 # CloudLens
 
+   ![CloudLens dashboard](screenshot.png)
+
+   ![CloudLens findings](findings.png)
+
 A cloud security configuration scanner. Paste a snapshot of a cloud environment (storage buckets, users, permissions and firewall rules) and CloudLens flags the risky settings, rates how serious they are, and explains how to fix each one. Python standard library only, so there is nothing to install.
 
 ## Run it
@@ -69,7 +73,6 @@ Entries of the wrong type, and firewall rules with non-numeric ports, are skippe
 - `scanner.py` - the rules, risk score and sample data (one small function per rule)
 - `static/index.html` - the dashboard (HTML, CSS and JavaScript in one file)
 - `test_cloudlens.py` - automated tests
-- `INTERVIEW_NOTES.md` - plain-language notes for explaining the project
 
 ## Code quality
 
